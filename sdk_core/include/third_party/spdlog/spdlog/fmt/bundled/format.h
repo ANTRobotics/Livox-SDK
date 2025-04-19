@@ -404,6 +404,7 @@ void basic_buffer<T>::append(const U *begin, const U *end) {
 // type in this mode. If this is the case __cpp_char8_t will be defined.
 #if !defined(__cpp_char8_t)
 // A UTF-8 code unit type.
+// Test of line TODO remove
 enum char8_t: unsigned char {};
 #endif
 
